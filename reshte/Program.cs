@@ -30,8 +30,8 @@ namespace reshte
             mydic.Add(1, "ewre");
             mydic.Add(-1, "ewre");
             mydic.Add(3, "ewre");
-            mydic.Add(3, "eghjmhmre");
-
+            mydic.Add(5, "eghjmhmre");
+            bool b = mydic.ContainsKey(1);
 
             foreach (var item in cor)
             {
